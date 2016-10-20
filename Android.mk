@@ -1,4 +1,4 @@
-ifeq ($(HAVE_FSL_IMX_GPU3D),true)
+ifeq ($(TARGET_HIGH_PERFORMANCE),true)
 LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
